@@ -24,7 +24,7 @@ for draw in range(1,rounds+1):
         result = start_purse * 10
     else:
         print("your broke")
-        result = start_purse/5
+        result = start_purse *-5
     purse += result
 
     if purse < 0.5 * start_purse:
@@ -33,4 +33,4 @@ for draw in range(1,rounds+1):
     print(f"purse: {purse} last result = ({marble}):{result}")
 
     #print("start purse/endpurse:",start_purse,purse)
-    #print('gain/loss',((purse-start_purse)/start_purse *100))
+    #print('gain/loss',((purse-start_purse)/start_purse *100)"%")
